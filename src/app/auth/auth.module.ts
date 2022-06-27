@@ -18,6 +18,7 @@ import { ResetPassComponent } from './reset-pass/reset-pass.component';
   imports: [
     CommonModule,
     AuthRoutingModule
-  ]
+  ],
+  exports :[AuthModule]
 })
 export class AuthModule { }
