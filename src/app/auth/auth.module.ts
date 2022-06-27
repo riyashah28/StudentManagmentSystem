@@ -6,6 +6,7 @@ import { RegPageComponent } from './reg-page/reg-page.component';
 import { LoginPageComponent } from './login-page/login-page.component';
 import { ForgotPassComponent } from './forgot-pass/forgot-pass.component';
 import { ResetPassComponent } from './reset-pass/reset-pass.component';
+import { HomePageComponent } from './home-page/home-page.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { ResetPassComponent } from './reset-pass/reset-pass.component';
     RegPageComponent,
     LoginPageComponent,
     ForgotPassComponent,
-    ResetPassComponent
+    ResetPassComponent,
+    HomePageComponent
   ],
   imports: [
     CommonModule,
