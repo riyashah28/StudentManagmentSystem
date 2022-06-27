@@ -20,6 +20,7 @@ import { HomePageComponent } from './home-page/home-page.component';
   imports: [
     CommonModule,
     AuthRoutingModule
-  ]
+  ],
+  exports :[AuthModule]
 })
 export class AuthModule { }
